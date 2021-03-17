@@ -270,3 +270,56 @@ img{
     max-width: 540px;
     margin-bottom: 50px;
 }
+
+/* Как я работаю блок конец*/
+
+/* Колаж */
+.collaj_container-items{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.bacground-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bacground-items img{
+    display: none;
+}
+.bacground-items:hover img{
+    display: block;
+}
+.bacground-items{
+    width: 33%;
+}
+.bacground-items:nth-of-type(even){
+    background: url('../img/nootebook.png');
+    height: 480px;
+
+}
+.bacground-items:nth-of-type(odd){
+    background: url('../img/paper.png');
+    height: 480px;
+
+}
+.bacground-items:nth-of-type(odd):hover{
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), url('../img/paper.png');
+}
+.bacground-items:nth-of-type(even):hover{
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), url('../img/nootebook.png');
+}
+.collaj_container-items > img:hover{
+    opacity: 0.8;
+    
+}
+.microsoft_container{
+    margin: 72px auto 100px;
+}
+.microsoft_container-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Колаж конец */
