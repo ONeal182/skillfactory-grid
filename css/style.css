@@ -246,3 +246,27 @@ img{
     bottom: 0;
     height: 4px;
 }
+/* work конец*/
+
+/* Как я работаю блок */
+
+.work{
+    background: #EEEFF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.work_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work_text{
+    text-align: center;
+    margin-top:50px;
+    max-width: 540px;
+    margin-bottom: 50px;
+}
