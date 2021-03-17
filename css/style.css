@@ -71,16 +71,26 @@ img{
 .h1_logo{
     font-size: 48px;
     line-height: 79px;
+    font-weight: normal;
 }
 .h2_log{
     font-size: 32px;
     line-height: 37px;
     text-align: center;
+    font-weight: normal;
+}
+.h3_logo{
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin-bottom: 10px;
 }
 .text{
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+    font-weight: normal;
 }
 
 .btn_WD {
@@ -323,3 +333,84 @@ img{
 }
 
 /* Колаж конец */
+
+/* Форма */
+    .form_me{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        background: #EEEFF1;
+    }
+.form_me .text_form{
+    text-align: center;
+    max-width: 540px;
+    margin:50px 0;
+}
+.form_container-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_container-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 540px;
+}
+.form_container-input .input{
+    width: calc(225px - 20px);
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    padding:18px 20px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    outline: none;
+    border:none;
+}
+.form_container-input .textarea{
+    width: 100%;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    padding:18px 20px;
+    margin:20px 0;
+    resize: none;
+    outline: none;
+    border:none;
+}
+
+.form_container-input .text_me_btn{
+    margin:0 auto;
+}
+/* Конец форма */
+/* Подвал */
+.footer{
+    background: #34547A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+.copyright{
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF
+}
+.footer_right{
+    display: flex;
+    align-self: center;
+}
+.footer_right .social{
+margin-right: 20px;
+}
+/* конец подвал */

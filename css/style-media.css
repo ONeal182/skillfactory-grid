@@ -16,5 +16,20 @@
     .bacground-items{
         width: 100%;
     }
+    .form_container-input .input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer_container{
+        justify-content: center;
+    }
+    .head_log{
+        margin-bottom: 20px;
+    }
+    .head_menu .head_menu-items .head_menu-item{
+        width: 100%;
+    }
+
 }
+
 
