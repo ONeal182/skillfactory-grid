@@ -229,6 +229,9 @@ img{
 }
 .my_skills-block{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .my_skills-photo{
     width: 50%;
@@ -239,7 +242,6 @@ img{
 }
 .h2_myskils{
     text-align: left;
-    margin-bottom: 50px;
 }
 .text-skill-border{
     
