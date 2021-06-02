@@ -190,8 +190,15 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-
+.skillbar_h2{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-top:20px;
+}
 .skillbar_container{
     width: 100%;
 }
@@ -293,6 +300,12 @@ img{
     display: flex;
     flex-wrap: wrap;
 
+}
+.collaj_h2{
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
 }
 .bacground-items{
     display: flex;
