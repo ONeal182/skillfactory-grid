@@ -125,6 +125,9 @@ img{
 .head_menu{
     align-self: center;
 }
+.header_container-burger{
+    display: none;
+}
 .head_menu .head_menu-items .head_menu-item a{
     font-size: 16px;
     line-height: 26px;

@@ -29,6 +29,15 @@
     .head_menu .head_menu-items .head_menu-item{
         width: 100%;
     }
+    .head_menu{
+        display: none;
+    }
+    .header_container-burger{
+        margin-bottom: 20px;
+        display: block;
+        width: 50px;
+        cursor: pointer;
+    }
 
 }
 
