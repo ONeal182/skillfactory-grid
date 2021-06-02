@@ -1,92 +1,191 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font-family: 'Roboto', sans-serif;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 html {
-	height: 100%;
+    height: 100%;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-p{
-    margin:0;
+
+p {
+    margin: 0;
 }
-h1{
+
+h1 {
     margin: 0;
     font-weight: 500;
 }
-ul{
+
+ul {
     list-style: none;
-    margin:0;
+    margin: 0;
 }
-input{
-    border:none;
+
+input {
+    border: none;
 }
-img{
+
+img {
     max-width: 100%;
 }
-.container{
+
+.container {
     max-width: 1130px;
     padding: 0 15px;
     box-sizing: border-box;
 }
-.h1_logo{
+
+.h1_logo {
     font-size: 48px;
     line-height: 79px;
     font-weight: normal;
 }
-.h2_log{
+
+.h2_log {
     font-size: 32px;
     line-height: 37px;
     text-align: center;
     font-weight: normal;
 }
-.h3_logo{
+
+.h3_logo {
     font-size: 21px;
     line-height: 25px;
     color: #FFFFFF;
     font-weight: normal;
     margin-bottom: 10px;
 }
-.text{
+
+.text {
     font-size: 16px;
     line-height: 26px;
     color: #727272;
@@ -103,8 +202,9 @@ img{
     cursor: pointer;
     padding: 25px 41px;
 }
+
 /* Начало меню */
-.head{
+.head {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -112,23 +212,27 @@ img{
     background: #EEEFF1;
 
 
-    
+
 }
-.header_container{
+
+.header_container {
     display: flex;
     justify-content: space-between;
-    margin-top:46px;
+    margin-top: 46px;
     width: 100%;
     flex-wrap: wrap;
     margin-bottom: 166px;
 }
-.head_menu{
+
+.head_menu {
     align-self: center;
 }
-.header_container-burger{
+
+.header_container-burger {
     display: none;
 }
-.head_menu .head_menu-items .head_menu-item a{
+
+.head_menu .head_menu-items .head_menu-item a {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
@@ -136,32 +240,36 @@ img{
     text-decoration: none;
     text-transform: uppercase;
 }
-.head_menu .head_menu-items .head_menu-item a:hover{
-    color:#34547A;
+
+.head_menu .head_menu-items .head_menu-item a:hover {
+    color: #34547A;
 }
-.head_menu .head_menu-items{
+
+.head_menu .head_menu-items {
     display: flex;
     flex-wrap: wrap;
 }
 
-.head_menu .head_menu-items .head_menu-item{
+.head_menu .head_menu-items .head_menu-item {
     margin-right: 42px;
 }
+
 /* Конец меню */
 
 /* Подвал шапки */
-.bottom_header{
+.bottom_header {
     display: flex;
     margin-bottom: 157px;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.bottom_header-info-content{
+
+.bottom_header-info-content {
     max-width: 540px;
 }
 
-.bottom_header-info-content .text_logo{
+.bottom_header-info-content .text_logo {
     margin: 60px 0;
 }
 
@@ -169,7 +277,7 @@ img{
 
 /*Обо мне*/
 
-.about_me{
+.about_me {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -177,90 +285,104 @@ img{
     padding: 100px 0;
 }
 
-.about_me .text_about{
+.about_me .text_about {
     max-width: 540px;
     text-align: center;
-    margin-top:50px;
+    margin-top: 50px;
 }
 
 /*Обо мне конец*/
 /*Скиллбар */
-.skillbar{
+.skillbar {
     background: #34547A;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.skillbar_h2{
+
+.skillbar_h2 {
     font-size: 24px;
     text-align: center;
     color: white;
     text-transform: uppercase;
-    margin-top:20px;
+    margin-top: 20px;
 }
-.skillbar_container{
+
+.skillbar_container {
     width: 100%;
 }
-.skillbar_container-items{
+
+.skillbar_container-items {
     display: flex;
     justify-content: space-between;
     padding: 70px 0;
     flex-wrap: wrap;
 }
-.skillbar_container-item{
+
+.skillbar_container-item {
     display: flex;
-    margin-top:15px;
-    margin-bottom:15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.skillbar_container-item-text{
+
+.skillbar_container-item-text {
     margin-left: 20px;
 }
-.skillbar_container-item-text span{
+
+.skillbar_container-item-text span {
     font-size: 21px;
     line-height: 25px;
     color: #FFFFFF;
 }
-.skillbar_container-item-text p{
+
+.skillbar_container-item-text p {
     font-size: 16px;
     line-height: 26px;
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
 }
+
 /*Скиллбар конец*/
 
 /* work */
-.my_skills{
+.my_skills {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px 0;
 }
-.my_skills-block{
+
+.my_skills-block {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.my_skills-photo{
+
+.my_skills-photo {
     width: 50%;
 }
-.my_skills_container{
+
+.my_skills_container {
     display: flex;
     flex-wrap: wrap;
 }
-.h2_myskils{
+
+.h2_myskils {
     text-align: left;
 }
-.text-skill-border{
-    
+
+.text-skill-border {
+
     max-width: 400px;
     padding-bottom: 20px;
     margin-top: 30px;
     position: relative;
 }
-.text-skill-border::before{
+
+.text-skill-border::before {
     content: '';
     background: linear-gradient(to right, #34547A, #C4C4C4);
     width: 100%;
@@ -268,27 +390,30 @@ img{
     bottom: 0;
     height: 4px;
 }
+
 /* work конец*/
 
 /* Как я работаю блок */
 
-.work{
+.work {
     background: #EEEFF1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px 0;
 }
-.work_container{
+
+.work_container {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.work_text{
+
+.work_text {
     text-align: center;
-    margin-top:50px;
+    margin-top: 50px;
     max-width: 540px;
     margin-bottom: 50px;
 }
@@ -296,55 +421,67 @@ img{
 /* Как я работаю блок конец*/
 
 /* Колаж */
-.collaj_container-items{
+.collaj_container-items {
     display: flex;
     flex-wrap: wrap;
 
 }
-.collaj_h2{
+
+.collaj_h2 {
     font-size: 24px;
     text-align: center;
     margin: 20px 0;
     text-transform: uppercase;
 }
-.bacground-items{
+
+.bacground-items {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.bacground-items img{
+
+.bacground-items img {
     display: none;
 }
-.bacground-items:hover img{
+
+.bacground-items:hover img {
     display: block;
 }
-.bacground-items{
+
+.bacground-items {
     width: 33%;
 }
-.bacground-items:nth-of-type(even){
+
+.bacground-items:nth-of-type(even) {
     background: url('../img/nootebook.png');
     height: 480px;
 
 }
-.bacground-items:nth-of-type(odd){
+
+.bacground-items:nth-of-type(odd) {
     background: url('../img/paper.png');
     height: 480px;
 
 }
-.bacground-items:nth-of-type(odd):hover{
+
+.bacground-items:nth-of-type(odd):hover {
     background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), url('../img/paper.png');
 }
-.bacground-items:nth-of-type(even):hover{
+
+.bacground-items:nth-of-type(even):hover {
     background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), url('../img/nootebook.png');
 }
-.collaj_container-items > img:hover{
+
+.collaj_container-items>img:hover {
     opacity: 0.8;
-    
+
 }
-.microsoft_container{
+
+.microsoft_container {
     margin: 72px auto 100px;
 }
-.microsoft_container-items{
+
+.microsoft_container-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -353,82 +490,93 @@ img{
 /* Колаж конец */
 
 /* Форма */
-    .form_me{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 100px 0;
-        background: #EEEFF1;
-    }
-.form_me .text_form{
+.form_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background: #EEEFF1;
+}
+
+.form_me .text_form {
     text-align: center;
     max-width: 540px;
-    margin:50px 0;
+    margin: 50px 0;
 }
-.form_container-block{
+
+.form_container-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.form_container-input{
+
+.form_container-input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 540px;
 }
-.form_container-input .input{
+
+.form_container-input .input {
     width: calc(225px - 20px);
     font-size: 14px;
     line-height: 23px;
     color: #5F5D5D;
-    padding:18px 20px;
+    padding: 18px 20px;
     font-size: 14px;
     line-height: 23px;
     color: #5F5D5D;
     outline: none;
-    border:none;
+    border: none;
 }
-.form_container-input .textarea{
+
+.form_container-input .textarea {
     width: 100%;
     font-size: 14px;
     line-height: 23px;
     color: #5F5D5D;
-    padding:18px 20px;
-    margin:20px 0;
+    padding: 18px 20px;
+    margin: 20px 0;
     resize: none;
     outline: none;
-    border:none;
+    border: none;
 }
 
-.form_container-input .text_me_btn{
-    margin:0 auto;
+.form_container-input .text_me_btn {
+    margin: 0 auto;
 }
+
 /* Конец форма */
 /* Подвал */
-.footer{
+.footer {
     background: #34547A;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer_container{
+
+.footer_container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
     flex-wrap: wrap;
 }
-.copyright{
+
+.copyright {
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF
 }
-.footer_right{
+
+.footer_right {
     display: flex;
     align-self: center;
 }
-.footer_right .social{
-margin-right: 20px;
+
+.footer_right .social {
+    margin-right: 20px;
 }
+
 /* конец подвал */

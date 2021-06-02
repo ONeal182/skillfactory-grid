@@ -1,38 +1,48 @@
-@media(max-width: 1024px){
-    .my_skills-block, .my_skills-photo {
+@media(max-width: 1024px) {
+
+    .my_skills-block,
+    .my_skills-photo {
         width: 100%;
         margin-bottom: 10px;
     }
-    .bacground-items{
+
+    .bacground-items {
         width: 50%;
     }
 
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .about_me {
         width: 100%;
     }
-    .bacground-items{
+
+    .bacground-items {
         width: 100%;
     }
-    .form_container-input .input{
+
+    .form_container-input .input {
         width: 100%;
         margin-bottom: 20px;
     }
-    .footer_container{
+
+    .footer_container {
         justify-content: center;
     }
-    .head_log{
+
+    .head_log {
         margin-bottom: 20px;
     }
-    .head_menu .head_menu-items .head_menu-item{
+
+    .head_menu .head_menu-items .head_menu-item {
         width: 100%;
     }
-    .head_menu{
+
+    .head_menu {
         display: none;
     }
-    .header_container-burger{
+
+    .header_container-burger {
         margin-bottom: 20px;
         display: block;
         width: 50px;
@@ -40,5 +50,3 @@
     }
 
 }
-
-
